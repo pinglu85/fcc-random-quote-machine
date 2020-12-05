@@ -1,0 +1,30 @@
+.quote {
+  min-height: 100px;
+  transition: all 0.4s ease-in-out;
+}
+
+.fade-in {
+  opacity: 100%;
+}
+
+.fade-out {
+  opacity: 0%;
+}
+
+.quote-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.quote-author {
+  margin-top: 1rem;
+  font-weight: 300;
+  text-align: right;
+}
+
+@media (min-width: 577px) {
+  .quote-text {
+    font-size: 2rem;
+  }
+}

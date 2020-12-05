@@ -1,0 +1,44 @@
+.interface {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.share-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.share-button-container .share-button:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.share-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.438rem;
+  height: 2.438rem;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+button {
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.share-button:hover,
+button:hover,
+.share-button:active,
+button:active {
+  opacity: 0.85;
+}
